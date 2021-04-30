@@ -1,0 +1,1 @@
+GOOGLE_PLACES_URL = "https://maps.googleapis.com/maps/api/place/textsearch/json?query="
