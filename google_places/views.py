@@ -7,7 +7,7 @@ from google_places.utils import *
 
 class PlacesTextSearchView(APIView):
     parameters = [mappings.NAME, mappings.ADDRESS, mappings.RATING, mappings.PHOTOS]
-    PAGE_SIZE = 5
+    PAGE_SIZE = 4
 
     def get(self, request):
 
